@@ -3,14 +3,14 @@
 source ./scripts/color.sh
 
 ### CONFIGURATION ###
-NODE_NAME="YOUR_NODE_NAME" # no spaces!
+NODE_NAME="BOOT_NODE_01" # no spaces!
 TESTNET="testnet.json"
 
-REPO_DIR="/home/$USER/shift-substrate"
+REPO_DIR="/home/$USER/dmog-master"
 VALIDATOR_DIR="$REPO_DIR/validator-chain"
 FULLNODE_DIR="$REPO_DIR/fullnode-chain"
 CHAIN_SPEC="$REPO_DIR/chain-spec/$TESTNET"
-NODE_TEMPLATE="$REPO_DIR/substrate-node/target/release/node-template"
+NODE_TEMPLATE="$REPO_DIR/dmog-node/target/release/node-template"
 
 ### FUNCTIONS ###
 createValidatorDaemonService() {
