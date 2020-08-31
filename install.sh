@@ -29,7 +29,7 @@ rustup update stable
 rustup target add wasm32-unknown-unknown --toolchain nightly
 
 printf "This may take 20+ minutes: Compiling DOT Mogwai Substrate Code...\n"
-cd substrate-node/
+cd dmog-node/
 cargo build --release
 cd ..
 
