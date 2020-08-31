@@ -10,7 +10,7 @@ REPO_DIR="/home/$USER/dmog-master"
 VALIDATOR_DIR="$REPO_DIR/validator-chain"
 FULLNODE_DIR="$REPO_DIR/fullnode-chain"
 CHAIN_SPEC="$REPO_DIR/chain-spec/$TESTNET"
-NODE_TEMPLATE="$REPO_DIR/dmog-node/target/release/node-template"
+NODE_TEMPLATE="$REPO_DIR/dmog-node/target/release/dmog"
 
 ### FUNCTIONS ###
 createValidatorDaemonService() {
