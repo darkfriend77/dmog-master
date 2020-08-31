@@ -1,0 +1,6 @@
+[submodule "dmog-node"]
+	path = dmog-node
+	url = https://github.com/darkfriend77/dmog-node
+[submodule "dmog-ui"]
+	path = dmog-ui
+	url = https://github.com/darkfriend77/dmog-ui
